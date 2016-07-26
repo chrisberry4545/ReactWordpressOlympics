@@ -1,0 +1,34 @@
+$c-sport-width: 100px;
+
+.c-sport {
+    display: inline-block;
+    width: $c-sport-width;
+    max-width: 600px;
+}
+
+
+
+    .c-sport-summary {
+        left: initial;
+        top: initial;
+        cursor: pointer;
+        margin: 20px;
+        width: $c-sport-width;
+        transition: all 2s;
+        position: relative;
+        z-index: 0;
+    }
+
+    .c-sport__icon-animator {
+        position: absolute;
+        width: $c-sport-width;
+        left: 0;
+    }
+
+    .c-sport--active {
+        // display: block;
+        // width: 100%;
+        .c-sport__icon-animator {
+            animation: grow-and-fade 2s forwards;
+        }
+    }

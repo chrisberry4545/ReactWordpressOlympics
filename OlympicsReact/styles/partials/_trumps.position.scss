@@ -1,0 +1,13 @@
+.t-center-in-parent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.t-top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 29px;
+}

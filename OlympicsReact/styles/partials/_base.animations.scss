@@ -1,0 +1,15 @@
+
+@keyframes grow-and-fade {
+  0%   { opacity: 1; transform: scale(1.0) }
+  100% { opacity: 0; transform: scale(5.0); display: none; }
+}
+
+@keyframes grow-and-fade--mini {
+  0%   { opacity: 1; transform: scale(1.0) }
+  100% { opacity: 0; transform: scale(1.5); display: none; }
+}
+
+@keyframes fade-into-view {
+    0% { opacity: 0; display: none; }
+    100% { opacity: 1 }
+}
